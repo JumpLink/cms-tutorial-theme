@@ -22,7 +22,6 @@
         "fallback": {
           "url": ""
         },
-        "site": "admin",
         "main": true,
         "key": "helloworld",
         "objectName": "layoutHelloworld",

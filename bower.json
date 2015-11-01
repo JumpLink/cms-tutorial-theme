@@ -5,6 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "angular-ui-router": "~0.2.15",
+    "angular": "~1.4.7",
+    "jumplink-cms-angular": "JumpLink/cms-angular#~0.0.2"
+  },
+  "resolutions": {
     "angular": "~1.4.7"
   }
 }

@@ -4,9 +4,14 @@ html(ng-app="jumplink.cms.tutorial")
     base(href="/")
     title JumpLink CMS Tutorial
   body
-    | Hello World
     span(ui-view="layout")
+      | Replace me!
+  script.
+    var routes = eval(!{JSON.stringify(routes)});
   script(src="/assets/third-party/angular/angular.js")
   script(src="/assets/third-party/angular-ui-router/release/angular-ui-router.js")
+  script(src="/assets/third-party/sails.io.js/dist/sails.io.js")
+  script(src="/assets/third-party/angularSails/dist/ngsails.io.js")
+  script(src="/assets/third-party/jumplink-cms-angular/dist/jumplink-cms-angular.js")
   script(src="/assets/js/config/app.js")
   script(src="/assets/js/config/routes.js")
