@@ -1,0 +1,7 @@
+{
+  "name": "cms-tutorial-theme",
+  "version": "0.0.1",
+  "description": "Theme to learn how you can create your own CMS Theme for JumpLink CMS",
+  "license": "MIT",
+  "devDependencies": {}
+}
