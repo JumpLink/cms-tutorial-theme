@@ -4,6 +4,7 @@
   "description": "Theme to learn how you can create your own CMS Theme for JumpLink CMS",
   "license": "MIT",
   "dependencies": {
-    "angular-ui-router": "~0.2.15"
+    "angular-ui-router": "~0.2.15",
+    "angular": "~1.4.7"
   }
 }
